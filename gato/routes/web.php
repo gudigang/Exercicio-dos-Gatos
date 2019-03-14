@@ -23,6 +23,6 @@ Route::get('gerome', function () {
     return view('gerome');
 });
 
-Route::get('home', function () {
+Route::get('', function () {
     return view('home');
 });
