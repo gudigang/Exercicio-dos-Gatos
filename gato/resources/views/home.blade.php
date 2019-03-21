@@ -7,7 +7,7 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item">
-            <a class="nav-link h3" style="font-family:arial;">Escolha um Gato</a>
+            <a class="nav-link h3" style="font-family:arial;color:#C0C0C0;">Escolha um Gato</a>
         </li>
       <li class="nav-brand">
         <a class="nav-link h5" href="robson">Robson Garfield</a>
