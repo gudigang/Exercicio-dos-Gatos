@@ -22,10 +22,3 @@ Route::get('astolfo', 'GatoController2@perfilGato');
 Route::get('gerome', 'GatoController3@perfilGato');
 
 Route::get('robson', 'GatoController4@perfilGato');
-
-<<<<<<< HEAD
-=======
-Route::get('', function () {
-    return view('home');
-});
->>>>>>> 022eab73931ea496ff205af14430282fd550aa02
