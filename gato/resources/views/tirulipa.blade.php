@@ -27,14 +27,16 @@
     </ul>
   </div>
 </nav>
-
 @endsection
 @section('nav')
 Exercicio dos Gatos
 @endsection
 @section('conteudo')
+
 <p> Nome: {{$nomeDoGato}}<br></p>
 <p> Idade: {{$idadeDoGato}}<br></p>
 <p> Massa: {{$massaDoGato}}<br></p>
 <p> Dono: {{$donoDoGato}}<br></p>
+
 @endsection
+

@@ -11,18 +11,15 @@
 |
 */
 
-Route::get('robson', function () {
-    return view('robson');
-});
-
-Route::get('astolfo', function () {
-    return view('astolfo');
-});
-
-Route::get('gerome', function () {
-    return view('gerome');
-});
-
-Route::get('home', function () {
+Route::get('', function () {
     return view('home');
 });
+
+Route::get('tirulipa', 'GatoController@perfilGato');
+
+Route::get('astolfo', 'GatoController2@perfilGato');
+
+Route::get('gerome', 'GatoController3@perfilGato');
+
+Route::get('robson', 'GatoController4@perfilGato');
+

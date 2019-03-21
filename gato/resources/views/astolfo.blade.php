@@ -10,7 +10,7 @@
             <a class="nav-link h3" style="font-family:arial;">Escolha um Gato</a>
         </li>
     <li class="nav-item">
-        <a class="nav-link h5" href="home">Home</a>
+        <a class="nav-link h5" href="/">Home</a>
       </li>
       <li class="nav-brand">
         <a class="nav-link h5" href="robson">Robson Garfield</a>
@@ -21,6 +21,9 @@
       <li class="nav-item">
         <a class="nav-link h5" href="gerome">Gerome</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link h5" href="tirulipa">Tirulipa</a>
+      </li>
     </ul>
   </div>
 </nav>
@@ -29,57 +32,8 @@
 Exercicio dos Gatos
 @endsection
 @section('conteudo')
-                <?php
-
-                    class gatinho{
-
-                        public $nome;
-                        public $idade;
-                        public $raca;
-                        public $peso;
-                        public $acao1;
-                        public $acao2;
-                        public $acao3;
-                        public $acao4;
-                        public $acao5;
-
-                        public function ImprimirNome(){
-                            echo "$this->nome<br>";
-                        }
-
-                        public function ImprimirIdade(){
-                            echo "$this->idade<br>";
-                        }
-
-                        public function ImprimirRaca(){
-                            echo "$this->raca<br>";
-                        }
-
-                        public function ImprimirPeso(){
-                            echo "$this->peso<br>";
-                        }
-
-                        public function ImprimirAcoes(){
-                            echo "$this->acao1<br>$this->acao2<br>$this->acao3<br>$this->acao4<br>$this->acao5<br>";
-                        }
-                    }
-                    
-                        echo "<br>";
-                        $gato = new gatinho();
-                        $gato->nome="Astolfo";
-                        $gato->idade=9;
-                        $gato->raca="Siamês";
-                        $gato->peso=7;
-                        $gato->acao1="Comer";
-                        $gato->acao2="Dormir";
-                        $gato->acao3="Miar";
-                        $gato->acao4="Andar";
-                        $gato->acao5="Brincar";
-                        $gato->ImprimirNome();
-                        $gato->ImprimirIdade();
-                        $gato->ImprimirRaca();
-                        $gato->ImprimirPeso();
-                        $gato->ImprimirAcoes();
-
-                ?>
+<p> Nome: {{$nomeDoGato}}<br></p>
+<p> Idade: {{$idadeDoGato}}<br></p>
+<p> Massa: {{$massaDoGato}}<br></p>
+<p> Dono: {{$donoDoGato}}<br></p>
 @endsection

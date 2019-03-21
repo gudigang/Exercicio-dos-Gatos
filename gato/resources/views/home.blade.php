@@ -18,6 +18,9 @@
       <li class="nav-item">
         <a class="nav-link h5" href="gerome">Gerome</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link h5" href="tirulipa">Tirulipa</a>
+      </li>
     </ul>
   </div>
 </nav>
